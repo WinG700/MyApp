@@ -41,7 +41,7 @@ int main()
 	wndclass.lpszMenuName = NULL;
 	wndclass.lpszClassName = szAppName;
 
-	ConfigFileRead(m_mapConfigInfo);
+	//ConfigFileRead(m_mapConfigInfo);
 
 
 	if (!RegisterClass(&wndclass))
